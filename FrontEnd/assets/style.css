@@ -351,8 +351,7 @@ footer nav ul {
 	overflow: auto;
 	background-color: white;
 	padding : 20px;
-	width: 40%;
-	height: 70%;
+	width: 35%;
 	border-radius: 10px;
 	position: relative;
 }
@@ -376,36 +375,40 @@ footer nav ul {
 }
 
 .modalTitle{
-	font-size: 22px;
+	font-size: 19px;
 	display: flex;
 	justify-content: center;
-	padding-top: 30px;
-	padding-bottom: 50px;
+	padding-top: 20px;
+	padding-bottom: 35px;
 }
 
+.modal-footer{
+	margin-top: 35px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 30px
+}
+
+
 hr {
-	margin-top: 50px;
-	margin-bottom: 40px;
-	width: 400px;
-	position: absolute;
-	bottom: 60px;
-	left: 105px
+	width: 290px;
+
 }
 
 .addBtn{
-	position: absolute;
-	bottom: 30px;
-	left: 155px
+	display: flex;
+	justify-content: center;
 }
 
 .addPhoto{
 	background-color: #1D6154;
 	border: none;
 	border-radius: 60px;
-	height:40px;
-	width: 300px;
+	height:30px;
+	width: 200px;
 	color: white;
-	font-size: 14px;
+	font-size: 12px;
 	font-family: "Syne";
 	font-weight: 300;
 }
@@ -424,13 +427,13 @@ hr {
 	flex-wrap: wrap;
 	gap: 10px;
 	position: relative;
-	margin-bottom: 15px;
+	margin-bottom: 7px;
 }
 
 
 .card-img {
-	width: 78px;
-	height: 103px;
+	width: 64px;
+	height: 90px;
 	position: relative;
 	background-size: cover;
 	background-position: center;
@@ -480,19 +483,20 @@ hr {
 }
 
 .modalTitle2{
-	font-size: 22px;
+	font-size: 19px;
 	display: flex;
 	justify-content: center;
-	padding-top: 30px;
-	padding-bottom: 10px;
+	padding-top: 15px;
+	padding-bottom: 5px;
 }
 
 #modale-form {
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 	width: 70%;
 	max-width: calc(100vw - 40px);
-	margin-left: 77px;
+	margin: auto;
 }
 
 .container-ajouter-fichier{
@@ -503,12 +507,10 @@ hr {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: auto 100%;
+
 }
 
 .container-ajouter-fichier label{
-	position: absolute;
-	left: 123px;
-	top: 95px;
 	background-color: #CBD6DC;
 	border: none;
 	color: #306685;
@@ -517,21 +519,17 @@ hr {
 	justify-content: center;
 	align-items: center;
 	width: 173px;
-	height: 36px;
+	height: 30px;
 }
 
 .container-ajouter-fichier p{
-	position: absolute;
 	color: #444444;
 	font-size: 10px;
-	left: 163px;
-	bottom: 19px;
 }
 
 input[type="file"] {
-	position: absolute;
 	background-color: #E8F1F6;
-	height: 170px;
+	height: 150px;
 	width: 100%;
 	border-radius: 3px;
 	background-image: url(../assets/icons/image.png);
@@ -539,6 +537,15 @@ input[type="file"] {
 	background-repeat: no-repeat;
 	background-origin: content-box;
 	color: #E8F1F6;
+	padding-top: 20px;
+}
+
+.labelP{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap:10px;
+	margin-top:-70px;
 }
 
 ::-webkit-file-upload-button {
@@ -546,44 +553,55 @@ input[type="file"] {
 }
 
 #label-ajouter-titre {
-	margin-top: 30px;
+	margin-top: 15px;
+	margin-left: -320px;
+
 }
 
 #ajouter-titre {
 	margin-top: 10px;
 	box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.09);
 	border: none;
-	height: 51px;
+	height: 40px;
+	width: 100%;
 }
 
 #label-select_categorie {
 	margin-top: 30px;
+	margin-left: -280px;
 }
 
 #select_categorie {
 	margin-top: 10px;
 	box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.09);
 	border: none;
-	height: 51px;
+	height: 40px;
 	appearance: none;
 	background-image: url(../assets/icons/couleur.png);
 	background-position: right center;
 	background-repeat: no-repeat;
 	padding-right: 20px;
 	background-origin: content-box;
+	width: 100%
 }
 
 #modale_ajout_projet #form_incomplet{
 	display: none;
-	position: absolute;
-	bottom: 115px;
 	color: rgb(227, 77, 77);
+	margin-top: -20px;
+	margin-bottom: -10px;
 }
 #modale-form-submit[type="submit"] {
-	margin-top: 90px;
-	padding: 10px 49px;
-	width: 237px;
 	border: none;
+	border-radius: 60px;
+	height:30px;
+	width: 200px;
+	color: white;
+	font-size: 12px;
+	font-family: "Syne";
+	font-weight: 300;
 	background-color: #A7A7A7;
+	margin-top: -10px;
+	margin-bottom: -1px;
 }
 

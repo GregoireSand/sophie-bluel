@@ -72,11 +72,11 @@
 								<div class="card" id="modalCardContainer">
 								</div>
 							</div>
-
+						<div class="modal-footer">
 							<hr>
 
 							<div class="addBtn"> <button class="addPhoto" id="modale-ajout_photo">Ajouter une photo</button> </div>
-							
+						</div>	
 						</div>
 
 
@@ -101,8 +101,10 @@
 							<form id="modale-form">
 								<div class="container-ajouter-fichier">
 									<input type="file" accept=".jpg, .png" max-size="4000000" name="image" id="ajouter-fichier">
+									<div class="labelP">
 									<label for="ajouter-fichier" id="ajouter-fichier">+ Ajouter photo</label>
 									<p>jpg, png : 4Mo max</p>
+									</div>
 								</div>
 
 								<label for="label-ajouter-titre" id="label-ajouter-titre">Titre</label>
@@ -114,13 +116,16 @@
 									<option value="2">Appartements</option>
 									<option value="3">Hôtels & restaurants</option>
 								</select>
-								<p id="form_incomplet">Veuillez remplir tous les champs nécessaires.</p>
+								<div class="modal-footer">
 
-								<hr>
+									<p id="form_incomplet">Veuillez remplir tous les champs nécessaires.</p>
 
-								<input type="submit" value="Valider" id="modale-form-submit">
+									<hr>
+
+									<input type="submit" value="Valider" id="modale-form-submit">
+								</div>
 							</form>
-										<hr>
+										
 
 								
 						
