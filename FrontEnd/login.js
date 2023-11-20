@@ -28,7 +28,6 @@ function authentification() {
             localStorage.setItem("token", data.token); // Stockage du token de connexion
             window.location.href = "index.html";   
         } else {
-            // Vous pouvez ajouter un message d'erreur ici pour informer l'utilisateur.
             localStorage.removeItem("token");
             window.location.href = "login.html";
         }
