@@ -106,8 +106,8 @@ const openModal = function (e) {
     e.preventDefault()
     const modaleElement = document.querySelector('#modalContainer');
     modaleElement.style.display = 'flex';
-    //modaleElement.style.justifyContent = 'center';
-   // modaleElement.style.alignItems = 'center';
+    modaleElement.style.justifyContent = 'center';
+    modaleElement.style.alignItems = 'center';
     modaleElement.removeAttribute('aria-hidden');
     modaleElement.setAttribute('aria-modal', 'true');
     modaleElement.addEventListener('click', closeModal);
