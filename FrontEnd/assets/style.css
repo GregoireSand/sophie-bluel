@@ -507,6 +507,14 @@ hr {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: auto 100%;
+	background-color: #E8F1F6;
+	border-radius: 3px;
+	/*background-image: url(../assets/icons/image.png);
+	background-position: center bottom 50px;
+	background-repeat: no-repeat;
+	background-origin: content-box;*/
+	color: #E8F1F6;
+	padding-top: 20px;
 
 }
 
@@ -528,16 +536,7 @@ hr {
 }
 
 input[type="file"] {
-	background-color: #E8F1F6;
-	height: 150px;
-	width: 100%;
-	border-radius: 3px;
-	background-image: url(../assets/icons/image.png);
-	background-position: center bottom 89px;
-	background-repeat: no-repeat;
-	background-origin: content-box;
-	color: #E8F1F6;
-	padding-top: 20px;
+	display: none;
 }
 
 .labelP{
@@ -545,7 +544,10 @@ input[type="file"] {
 	flex-direction: column;
 	align-items: center;
 	gap:10px;
-	margin-top:-70px;
+}
+
+#addIcon{
+	font-size: 80px;
 }
 
 ::-webkit-file-upload-button {
